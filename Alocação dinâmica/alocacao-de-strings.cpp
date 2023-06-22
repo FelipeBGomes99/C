@@ -1,4 +1,4 @@
-//Exemplo de alocaÁ„o de strings
+//Exemplo de aloca√ß√£o de strings
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -14,7 +14,7 @@ do{
   printf("\nDigite o nome: ");
   gets(aux);
   fflush(stdin);
-  tam+=strlen(aux)+1;  //n„o esquecer o \0, por isso o +1
+  tam+=strlen(aux)+1;  //n√£o esquecer o \0, por isso o +1
   aloca(&ptr,tam);
   if(cont==0)
     strcpy(ptr,aux);
