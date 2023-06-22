@@ -1,6 +1,6 @@
-/*Aloque espaço para uma sequência de
-números escolhida pelo usuário. Até que
-Ele digite a opção não.
+/*Aloque espaÃ§o para uma sequÃªncia de
+nÃºmeros escolhida pelo usuÃ¡rio. AtÃ© que
+Ele digite a opÃ§Ã£o nÃ£o.
 Receba os valores e imprima-os em ordem inversa.*/
 
 #include <stdio.h>
