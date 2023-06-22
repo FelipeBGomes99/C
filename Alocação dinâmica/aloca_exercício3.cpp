@@ -1,7 +1,7 @@
-/*Alocar espaço para armazenar as temperaturas
-diárias registradas durante um mês. O programa
+/*Alocar espaÃ§o para armazenar as temperaturas
+diÃ¡rias registradas durante um mÃªs. O programa
 deve mostrar diariamente (a medida que as
-temperaturas são incluídas) a maior temperatura
+temperaturas sÃ£o incluÃ­das) a maior temperatura
 e o dia em que ocorreu.*/
 
 #include <stdio.h>
