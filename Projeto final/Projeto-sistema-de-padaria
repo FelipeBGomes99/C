@@ -1,4 +1,4 @@
-//Grupo 17 - Felipe Bernardes Gomes:223868 -- Carlos Eduardo Ferreira da Silva: 223748
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -58,7 +58,7 @@ int main()
 
     do{
         system("cls");
-        printf("Menu:\n[1]Cadastro\n[2]Consulta total\n[3]Consulta parcial\n[4]Altera preço\n[5]Deleta produto\n[6]Venda\n[7]Consulta pagamento\n[8]Consulta cliente\n[9]Sair\nOpcao:");
+        printf("Menu:\n[1]Cadastro\n[2]Consulta total\n[3]Consulta parcial\n[4]Altera preÃ§o\n[5]Deleta produto\n[6]Venda\n[7]Consulta pagamento\n[8]Consulta cliente\n[9]Sair\nOpcao:");
         scanf("%i", &op);
         fflush(stdin);
 
@@ -231,7 +231,7 @@ void altera_preco(produto *p, int op)
     fflush(stdin);
     pos=busca(p, registro);
     if(pos==-1)
-        printf("\nRegistro não existe\n\n");
+        printf("\nRegistro nÃ£o existe\n\n");
     else
     {
         printf("Registro: %i\n Tipo: %s\n Descricao: %s\n Preco: %.2f\n\n", p->reg_prod,p->tipo, p->descricao,p->preco);
@@ -353,7 +353,7 @@ void historico_venda(venda *p, produto *pp)
     fflush(stdin);
     p->pago = 'N';
     if(p->total > 0){
-        printf("\nPreço unitario: %.2f\n", p->preco);
+        printf("\nPreÃ§o unitario: %.2f\n", p->preco);
         printf("\nValor a pagar: %.2f\n", p->total);
         printf("pagamento: %c\n", p->pago);
         grava_venda(p);
