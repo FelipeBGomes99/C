@@ -47,3 +47,5 @@ A função fread() é usada para ler informações do arquivo.
 A função fwrite() é usada para gravar informações no arquivo.
 
 Cabe ressaltar que o resumo fornecido é baseado no texto fornecido e pode não abranger todos os aspectos e detalhes relacionados às operações de entrada/saída de arquivos em linguagem C.
+
+
