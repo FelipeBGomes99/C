@@ -1,4 +1,4 @@
-/*
+/*Exercício onde foi criado um estoque com linguagem c que permite o usuario cadastrar, mostrar, alterare deletar as structs salvas nele */
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
