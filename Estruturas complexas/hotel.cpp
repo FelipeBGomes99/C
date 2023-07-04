@@ -1,3 +1,24 @@
+/*Realizar o desenvolvimento de um sistema para um hotel que contenha as seguintes características
+1- cadastro quarto: alocar espaço para 15 estruturas, ou seja, o hotel possui 15 quartos disponíveis. Struct:
+
+typedef struct quarto{
+	int num;			// número do quarto
+	char categoria;		// [S]olteiro / [F]amiliar
+	char status;		// [L]ivre / [O]cupado
+}quarto;
+
+2- Cadastro hóspede: alocar um espaço a mais cada vez que for registrado um novo hóspede, ao registrar 
+um hóspede em um quarto alterar o valor do numero do quarto para -1 para sinalizar que o quarto está ocupado.
+
+typedef struct hospede{
+	int quarto;			// número do quarto
+	char nome[80];
+	int acompanhante;	// quantidade de acompanhantes
+	char categoria;		// [S]olteiro / [F]amiliar
+	int dias;			// tempo de permanência - em dias
+}hospede;
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
