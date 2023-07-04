@@ -1,3 +1,5 @@
+/*Exercício onde foi criado um estoque com linguagem c que permite o usuario cadastrar, mostrar e alterar os itens salvos nele*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
