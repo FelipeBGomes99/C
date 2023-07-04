@@ -2,15 +2,15 @@
 #include <stdlib.h>
 
 typedef struct hospede{
-	int quarto;			// número do quarto
+	int quarto;			// nÃºmero do quarto
 	char nome[80];
 	int acompanhante;	// quantidade de acompanhantes
 	char categoria;		// [S]olteiro / [F]amiliar
-	int dias;			// tempo de permanência - em dias
+	int dias;			// tempo de permanÃªncia - em dias
 }hospede;
 
 typedef struct quarto{
-	int num;			// número do quarto
+	int num;			// nÃºmero do quarto
 	char categoria;		// [S]olteiro / [F]amiliar
 	char status;		// [L]ivre / [O]cupado
 }quarto;
@@ -44,7 +44,7 @@ do{
 	  			scanf("%i",&nquarto);
 	  			fflush(stdin);
 	  			check_out(ph,cont,pq,15,nquarto);
-	  }//switch
+	  }
   }while(op!=3);
 
 }//main
