@@ -34,6 +34,7 @@ espaço livre para o cadastro de outro produto.
 ## 2ª etapa - Fazer menu e rotina para:
 - Histórico Vendas: receber as informações da venda (abaixo) e guardar em
 vendas.bin. Struct:
+
  Nº do registro da venda (nº inteiro gerado automaticamente pelo
 sistema).
 
@@ -56,21 +57,20 @@ o registro.
 
 - Consulta Vendas – 2 tipos de consulta:
   
-  Pagamento (S ou N). O acesso deve ser feito através da verificação do pagamento, o
+  Pagamento (S ou N): o acesso deve ser feito através da verificação do pagamento, o
 usuário deverá entrar com a letra [S]im ou [N]ão para a variável
 pago. Mostrar o registro da venda, o nome do cliente, CPF do cliente,
 registro do produto, quantidade, preço e total de TODAS as vendas
 efetuadas e que estiverem com o pagamento escolhido.
 
- CPF: O acesso deve ser feito através do CPF do cliente. Mostrar o registro da venda, o nome do cliente, registro do
+  CPF: o acesso deve ser feito através do CPF do cliente. Mostrar o registro da venda, o nome do cliente, registro do
 produto, quantidade, preço, total e pagamento de TODAS as compras efetuadas pelo cliente (tanto as pagas como as em aberto).
 
 ### OBS.: alocar apenas 1 espaço de memória para a estrutura venda.
 
 ## 3ª etapa - Fazer menu e rotina para:
 
- - Pagamento:
- O acesso deve ser feito através do CPF do cliente.
+ - Pagamento: o acesso deve ser feito através do CPF do cliente.
 
  Mostrar o registro da venda, o nome do cliente, registro do produto,
 quantidade, preço, total e status das compras efetuadas pelo cliente, cujo
@@ -98,8 +98,7 @@ sistema). Struct:
 não: deve-se somar o valor pago ao que já estava armazenado no
 arquivo.
 
-- Consulta do Histórico de Clientes:
-o Mostrar registro do cliente,nome, CPF e total gasto até o momento.
+- Consulta do Histórico de Clientes: mostrar registro do cliente,nome, CPF e total gasto até o momento.
 
 ### OBS.: alocar apenas 1 espaço de memória para a estrutura cliente.
 
